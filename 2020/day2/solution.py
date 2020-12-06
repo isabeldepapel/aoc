@@ -13,12 +13,6 @@ def part_one():
         actual_letter_repeats = [char == letter for char in password].count(True)
         return actual_letter_repeats >= min_req and actual_letter_repeats <= max_req
 
-        # for char in password:
-        #     if char == letter:
-        #         actual_letter_repeats += 1
-        # if actual_letter_repeats >= min_req and actual_letter_repeats <= max_req:
-        #     num_valid_policies += 1
-    
     f.close()
     return num_valid_policies
 

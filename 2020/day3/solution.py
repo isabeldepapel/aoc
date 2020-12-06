@@ -22,7 +22,6 @@ def find_trees(step):
     
     current_pos = (0, 0)
     y = current_pos[1]
-    # step = (3, 1)
     num_trees = 0
 
     while y < len(my_map) - 1:
