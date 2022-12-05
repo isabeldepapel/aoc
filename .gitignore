@@ -1,4 +1,11 @@
+# input
+*input.txt
+
 .venv/
 .python-version
 .env*
 node_modules/
+.vscode
+
+# rust
+target/
